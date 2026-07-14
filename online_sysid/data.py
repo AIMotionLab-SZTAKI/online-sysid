@@ -2,7 +2,7 @@ from jax import numpy as jnp
 import numpy as np
 import jax
 
-from typying import Optional
+from typing import Optional
 
 
 def init_online_buffer(m: int, N: int, nu: int, ny: int, nx: int, n: int=0):
