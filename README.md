@@ -1,15 +1,5 @@
 # ONLINE SysID
 A batch-wise learning approach and a recursive parameter update scheme for online learning of neural state-space (ANN-SS) models with an encoder network for initial state estimation. Contains the code implementation and example scripts for the paper titled *Online learning of neural state-space models*. The paper will soon be available on arXiv.
-# TODO:
-- [x] Add example scripts
-- [ ] Add description + user guide for examples
-- [x] Add installation guide
-- [x] Add license
-- [x] Add short example to readme
-- [x] Add short project description
-- [x] Add funding
-- [ ] Upload paper to arxiv
-- [ ] Add citation details
 
 ## Installation
 **1. Clone repository**
@@ -99,3 +89,14 @@ This work was funded by the Air Force Office of Scientific Research under award 
 
 ## Contact
 For questions or collaboration, contact the corresponding author: [gyorokbende@sztaki.hu](mailto:gyorokbende@sztaki.hu)
+
+## TODO:
+- [x] Add example scripts
+- [x] Add description + user guide for examples
+- [x] Add installation guide
+- [x] Add license
+- [x] Add short example to readme
+- [x] Add short project description
+- [x] Add funding
+- [ ] Upload paper to arxiv
+- [ ] Add citation details
