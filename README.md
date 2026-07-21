@@ -55,8 +55,7 @@ batch_length = 10
 # see docstrings for further options
 model.initialize_recursive_update_scheme(theta, R0, batch_length, time_invariant=True)
 
-# evaluate with dummy data for the example
-
+# initialize variables for the recursive estimation
 theta_prev = theta.copy()
 R_prev = R0.copy()
 batch_idx = 0
@@ -77,8 +76,7 @@ theta_new, R_new, mu_new, lambda_new = model.recursive_update_step(theta_prev, R
                                                                    y_batch, u_batch, y_hist, u_hist)
 t_end = time.time()
 
-print(f"Update step compited in {1000*(t_end - t_start)} ms.")  # Update step compited in 1.8012523651123047 ms.
-
+print(f"Update step compited in {1000*(t_end - t_start)} ms.")  # Update step completed in 1.8012523651123047 ms.
 ```
 
 ## Citation
